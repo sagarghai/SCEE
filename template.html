@@ -7,20 +7,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-
-    <title>Theme Template for Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <title>SCEE</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!-- Bootstrap theme -->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src=""></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="fonts/Neoterique.ttf">
+    <!--<script src="js/bootstrap.min.js"></script>-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,3 +29,58 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+
+  <body>
+    
+    <div class="container-fluid" role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="col-md-2" style="margin-top:60px;">
+        <div class="custom-top jumbotron" style="background:white;">
+          <img class="img-responsive" src="images/logo1.png">
+        </div>
+      </div>  
+      <div class="col-md-8" style="margin-top:-20px;">
+        <div class="custom-top jumbotron" style="background:white;">
+          <h1 class="text-center" style="font-family:Neoterique">School of Computing And <br>Electrical Engineering</h1>
+        </div>
+      </div>
+     <div class="col-md-2" style="margin-top:30px;">
+        <div class="custom-top jumbotron" style="background:white;">
+          <img class="img-responsive" src="images/mandilogo.jpg">
+        </div>
+    </div>
+ <!-- Fixed navbar -->
+    <div class="container">
+      <div class="custom-menu">
+        <nav class="navbar" role="navigation">
+          <ul class="nav nav-pills">
+            <li class="active col-md-2 text-center"><a href="#">Home</a></li>
+            <li class="dropdown col-md-2 text-center">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">People<b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" style="margin-left:8%;margin-top:5%; border-radius:10%">
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Students</a></li>
+              </ul>
+            </li>
+            <li class="dropdown col-md-2 text-center">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" style="margin-left:8%;margin-top:5%; border-radius:10%">
+                <li><a href="#">U.G Programme</a></li>
+                <li><a href="#">P.G Programme</a></li>
+              </ul>
+            </li>
+            <li class="dropdown col-md-2 text-center">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research<b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" style="margin-left:8%;margin-top:5%; border-radius:10%">
+                <li><a href="#">Areas</a></li>
+                <li><a href="#">Labs</a></li>
+              </ul>
+            </li>
+            <li class="col-md-2 text-center"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>  
+    </div>
+  </body>  
+</html>

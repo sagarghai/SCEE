@@ -3568,13 +3568,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  float:left;
 }
 .nav-pills > li > a {
   border-radius: 4px;
 }
 .nav-pills > li + li {
-  margin-left: 2px;
+  margin-left: 12px;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
@@ -4373,6 +4373,9 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+}
+.custom-top{
+  background:#fff;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5828,4 +5831,4 @@ td.visible-print {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map 
