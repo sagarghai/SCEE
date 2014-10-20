@@ -8,7 +8,18 @@
 	height:50%;
 	width:55%;
 }
-.c-image{
-	height:250px;
-	width:250px;
+
+.jumbotron {
+	padding: 0.5em 0.5em;
+	
+	h1 {
+		font-size: 	2em;
+	}
+	
+	p {
+		font-size: 1.2em;
+		.btn {
+			padding: 0.9em;
+		}
+	}
 }
