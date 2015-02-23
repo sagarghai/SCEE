@@ -1,8 +1,4 @@
-body { padding-top: 50px;width:95%; }
-
 #myCarousel .carousel-caption {
-    left:0;
-	right:0;
 	bottom:0;
 	text-align:left;
 	padding:10px;
@@ -24,7 +20,7 @@ body { padding-top: 50px;width:95%; }
 }
 
 @media (min-width: 992px) { 
-	#myCarousel {padding-right:33.3333%;}
+/*	#myCarousel {padding-right:33.3333%;}*/
 	#myCarousel .carousel-controls {display:none;} 	
 }
 @media (max-width: 991px) { 

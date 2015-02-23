@@ -1,25 +1,117 @@
-.custom-menu{
-	margin-top:-40px;
+body{
+    background-color: #eee;
 }
+
+.custom-menu{
+    color:white;
+    background-color: #030C3C;
+    height:35px;  
+}
+
 .footer{
 	font-size:1px;
 }
+
 .custom-carousel{
-	height:50%;
-	width:55%;
+	position:relative;
+    left:20%;
+}
+		
+@media (max-width:992px){
+    .custom-carousel{
+        
+    }
 }
 
-.jumbotron {
-	padding: 0.5em 0.5em;
-	
-	h1 {
-		font-size: 	2em;
-	}
-	
-	p {
-		font-size: 1.2em;
-		.btn {
-			padding: 0.9em;
-		}
-	}
+.hr4{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+.custom-heading{
+    font-size:44px;
+    font-family: 'Ubuntu', sans-serif;
+/*    margin-top:20px;*/
+}
+
+/*@media { max-width: */
+    
+.brand-name{
+    font-size: 18px;
+    padding-top: 30px;
+}    
+
+@media (max-width: 992px) {
+    .brand name{
+        visibility:hidden;
+    }
+    .top-menu{
+        height:35px;
+    }
+    .top-menu>h3{
+        visibility: visible;
+    }
+    .top-menu>ul>li{
+        visibility:hidden;
+    }
+}
+
+@media (min-width:992px){
+.top-menu>h3{
+    visibility: hidden;
+    }
+}
+
+.top-menu{
+    background-color: #030c3c;
+    width: 100%;
+    height:60px;
+    max-height: 35px;
+}
+.top-menu>ul>li{
+    list-style: none;
+}
+
+.top-menu>ul>li>a{
+    margin-right:20px;
+    color: white;
+}
+
+.logo-image{
+    float:right;
+}
+
+.logo-image>img{
+    height:80px;
+    width:auto;
+}
+
+
+.custom-carousel{
+    margin-left:50%;
+    margin-right: 50%;
+}
+
+@media (max-width:992px){
+    .logo-image{
+        visibility:hidden;
+    }
+    .faculty>.row>img{
+    height:100px;
+    width:120px;
+    max-width:100%; 
+    }
+}
+
+.faculty>.row>address>h3{
+    margin-top:0px;
+    margin-bottom:5px;
+    
+}
+
+.faculty>.row>img{
+    height:auto;
+  .  width:auto;
+    max-width:100%; 
 }
